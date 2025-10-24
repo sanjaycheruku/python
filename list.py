@@ -18,7 +18,7 @@ v.append=(46)
 #v.pop(3)
 #print(v.index(4.4))
 # call two elements in a time
-print(len[v])
+print(v)
 #print(v[-4] , v[3])
 
 
