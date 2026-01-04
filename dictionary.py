@@ -1,12 +1,12 @@
 d={1:'123',2:'890','sanju':7,'aaryan':9}
 
-print(d[1])
-#print(d.get('2'))
-#d.update({123:134})
-#print(d)
-#print(d.keys())
-#print(d.values())
-#print(d.items())
+print(d.get(1))
+
+d.update({123:134})
+print(d)
+print(d.keys())
+print(d.values())
+print(d.items())
 
 
 
