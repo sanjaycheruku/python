@@ -1,7 +1,12 @@
-num = 7
-for i in range(2,num):
-    if num % i == 0 :
-        print('not prime')
-        break
+
+num=50
+if num > 1:
+
+    for i in range(2, num):
+        if (num % i) == 0:
+            print(f"{num} is not prime")
+            break
     else:
-       print('prime')
+        print(f"{num} is prime!")
+else:
+    print(f"{num} is not prime")

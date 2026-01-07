@@ -3,11 +3,13 @@
 # expect    (if we have an arror in try we use expect)
 # else   ( if we dont have error we use else)
 # finally (it's always print even program have an error)
+
+
 try:
-    print('hii') # risk code
+    print(b)# risk code
 except:
     print('error')
 else:
-    print('error handling')
+    print('no error')
 finally:
     print('always')
