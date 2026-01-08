@@ -11,7 +11,7 @@ print(arr1.tolist())
 from array import*
 
 # Create an array of integers ('i')
-numbers = (array('i', [10, 20, 30, 40]))
+numbers = (array('i', [10, 20, 30, 40,50]))
 
 # 1. Accessing an item (The first item is index 0)
 print(numbers[0])  # Output: 10
@@ -19,7 +19,7 @@ print(numbers[0])  # Output: 10
 # 2. Adding an item
 numbers.append(50)
 
-# 3. Removing an item
+# 3. Removing an items
 numbers.remove(20)
 
 # 4. Finding the length
