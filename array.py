@@ -25,3 +25,5 @@ numbers.remove(20)
 # 4. Finding the length
 print(len(numbers)) # Output: 4
 print(numbers.tolist())
+for x in numbers:
+    print(x)
