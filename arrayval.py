@@ -13,5 +13,6 @@ print(arr)
 ele=int(input('eneter the number:'))
 if ele in arr:
     print(f'element{arr} exist in  my arr')
+    
 else:
     print(f'ele {arr} don exist')
