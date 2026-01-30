@@ -11,7 +11,7 @@ for i in range (n):
 print(arr)
 # from here to find element3
 ele=int(input('eneter the number:'))
-if ele in arr:
+if ele == arr:
     print(f'element{arr} exist in  my arr')
     
 else:
