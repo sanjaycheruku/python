@@ -9,10 +9,10 @@ for i in range (n):
     x=int(input("enter the next number: "))
     arr.append(x)
 print(arr)
-# from here to find element3
+# from here to find element
 ele=int(input('eneter the number:'))
 if ele == arr:
     print(f'element{arr} exist in  my arr')
     
 else:
-    print(f'ele {arr} don exist')
+    print(f'ele {ele} don exist')
