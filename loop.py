@@ -11,7 +11,7 @@ for i in  a:
 # for in range
 num=5
 for j in range(1,10):
-    if j==3
+    if j==3:
      print("hi")
 print(num,'X',j,'=',num*j)
     
