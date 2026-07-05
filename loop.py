@@ -8,6 +8,9 @@ a=(1,2,3,'a','b')
 for i in  a:
   print(i)
 '''
+
+'''
+
 # for in range
 num=5
 for j in range(1,10):
@@ -15,3 +18,18 @@ for j in range(1,10):
      print("hi")
 print(num,'X',j,'=',num*j)
     
+'''
+
+'''
+
+print('0',end=' ')
+print('1')
+print('python','java','c')
+
+'''
+
+
+x=65
+while x<=90:
+    print(chr(x),end=' , ')
+    x+=1

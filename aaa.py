@@ -103,6 +103,7 @@ slice_list(numbers)
 
 '''
 
+
 def func(name,*email,**address):
     print("Name:", name)
     print("Email:", email)
